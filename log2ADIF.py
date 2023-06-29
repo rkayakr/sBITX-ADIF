@@ -1,6 +1,7 @@
 #!/usr/bin/python3 /home/pi/sbitx/log2ADIF.py
 # sbitx log to ADIF file
 # Bob Benedict, KD8CGH, June 2023
+# released under GPL 3.0
 
 import sqlite3
 
