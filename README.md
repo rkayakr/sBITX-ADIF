@@ -1,10 +1,11 @@
-# sBITX-ADIF
-simple python program to read sBITX sqlite3 log and write out to file in ADIF format
+Log2ADIF.py is a simple python program that reads the sbitx log database and creates a log file in ADIF format.
+It expects to find the sbitx.db file in /home/pi/sbitx/data and leaves the logADIF.adif in that directory.
+Place log2ADIF.py in /home/pi/sbitx and make sure it is executable. If it is not, from a terminal in /home/pi/sbitx type
+chmod +x Log2ADIF.py
 
-copy to directory with sbitx log and launch there
+To execute from a terminal in /home/pi/sbitx type
+./Log2ADIF.py
 
-example  pi@sbitx:~/sbitx/data python3 log3a.py
+If /home/pi/sbitx has been added to PATH you can execute by typing Log2ADIF.py from any terminal.
 
-will write to terminal and to file output.adif
-
-tested by importing output file into DXkeeper
+  Bob Benedict, KD8CGH, June 2023
